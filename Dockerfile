@@ -1,4 +1,5 @@
-# NOTE: This is not a production ready Dockerfile. Utilize this only for development purposes
+# NOTE: This is not a production ready Dockerfile. 
+# Utilize this only for development purposes
 
 # Use a container image that has both Gradle and the JDK
 FROM gradle:5.0.0-jdk8-alpine
