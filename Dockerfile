@@ -4,7 +4,7 @@
 # Use a container image that has both Gradle and the JDK
 FROM gradle:5.0.0-jdk8-alpine
 
-# Switch to the `gradle` user define by our container image
+# Switch to the `gradle` user defined by our container image
 USER gradle
 
 # Copy over the project directory into the container
