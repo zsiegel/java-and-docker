@@ -16,4 +16,5 @@ WORKDIR /java-and-docker
 RUN gradle build
 
 # Run the jar file
+# Since we are using JDK8 we set some additional flags to be more container aware
 CMD ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-jar", "build/libs/java-and-docker-1.0.jar"]
